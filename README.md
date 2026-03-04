@@ -63,8 +63,8 @@ To install the `PDACMOC` package, we recommend creating a Miniconda environment 
 
 ```sh
 # Download and uncompress the distribution file
-wget https://github.com/pavillos/PDACMOC/releases/download/v.2.5.3/PDACMOC_2.5.3.tar.gz
-tar -xvzf PDACMOC_2.5.1.tar.gz
+wget https://github.com/pavillos/PDACMOC/releases/download/v.2.5.4/PDACMOC_2.5.4.tar.gz
+tar -xvzf PDACMOC_2.5.4.tar.gz
 
 # Install Miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -125,7 +125,7 @@ q()
 R CMD INSTALL ./PDACMOC/inst/packages/ADVOCATE_0.1.0.tar.gz
 
 # Install PDACMOC
-R CMD INSTALL ./PDACMOC_2.5.1.tar.gz
+R CMD INSTALL ./PDACMOC_2.5.4.tar.gz
 
 # Open R
 R

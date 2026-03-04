@@ -14,6 +14,7 @@
 
 # Define the user interface
 ui <- fluidPage(
+  title = "PDACMOC",
   shinyjs::useShinyjs(),
   theme = shinytheme('cyborg'),
   tags$style(HTML('.some-space { margin-bottom: 50px; }')),
